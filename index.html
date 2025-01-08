@@ -5,21 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Website</title>
   <link rel="stylesheet" href="css/style.css"> <!-- Link to the CSS file -->
+  <script src="js/loadSections.js" defer></script>
 </head>
 <body>
 
    <!-- Header (Top Container) -->
-   <header>
-    <div class="header-container">
-      <div class="logo">My Website</div>
-      <div class="nav">
-        <a href="#">Home</a>
-        <a href="pages/library.html">library</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-      </div>
-    </div>
-  </header>
+    <!-- Dynamically Load Header -->
+  <div id="header"></div>
 
   <!-- Main Content (Center Container) -->
   <main>
@@ -38,11 +30,8 @@
   </main>
 
   <!-- Footer (Bottom Container) -->
-  <footer>
-    <div class="footer-container">
-      <p>&copy; 2025 My Website | All Rights Reserved</p>
-    </div>
-  </footer>
+    <!-- Dynamically Load Footer -->
+    <div id="footer"></div>
 
 </body>
 </html>
